@@ -1,1 +1,137 @@
 /* место для вашего кода */
+.root {
+  font-family: "Raleway" sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  background-color: #fff;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px 50px;
+  font-size: 18px;
+}
+
+.lots {
+  padding: 0 24px;
+  margin-bottom: 120px;
+}
+
+.about {
+  padding: 35px 24px 0;
+  margin-bottom: 180px;
+}
+
+.footer {
+  padding: 0 50px 82px;
+}
+
+.header__logo {
+  display: block;
+  width: 129px;
+  height: 104px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 33px;
+}
+
+.header__links-list-item {
+  list-style: circle;
+  
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+  text-decoration: none;
+  border-bottom: 1px solid #000000;
+}
+
+.header__link_active {
+  border-bottom: none;
+}
+
+.address {
+  font-style: normal;
+  max-width: 240px;
+  justify-self: end;
+  line-height: 1.35;
+}
+
+.cover {
+  position: relative;
+  padding: 165px 50px 50px;
+  margin-bottom: 180px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.cover__title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+  gap: 20px;
+  font-size: 100px;
+  font-weight: 700;
+  padding-bottom: 106px;
+  letter-spacing: 0.3em;
+
+}
+
+.accent-span {
+  text-transform: uppercase;
+  
+}
+
+.text-center {
+  align-self: center;
+}
+
+.text-right {
+  align-self: flex-end;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+.description {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+   
+}
+
+.description__text {
+  line-height: 1.27;
+  text-transform: uppercase;
+  align-self: center;
+  word-spacing: 18px;
+}
+
+.description__button {
+  color: #fff;
+  background-color: transparent;
+  font-weight: 500;
+  border: 1px solid currentColor;
+  padding: 12px 32px 11px;
+  text-transform: uppercase; 
+}
+
+
+
