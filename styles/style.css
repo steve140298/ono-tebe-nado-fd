@@ -1,7 +1,10 @@
 /* место для вашего кода */
 .root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   color: #000000;
-  font-family: "Raleway" sans-serif;
+  font-family: 'Raleway' sans-serif;
   font-weight: 400;
   font-size: 20px;
   background-color: #fff;
@@ -19,7 +22,6 @@
   display: block;
   width: 136px;
   height: 104px;
-
 }
 
 .header__links-list {
@@ -51,12 +53,16 @@
 
 .address a {
   border-bottom: 1px solid #000;
-  text-decoration: solid;
+  text-decoration: none;
 }
 
 .header__address {
   justify-self: end;
   max-width: 240px;
+}
+
+.main-content {
+  flex-grow: 1;
 }
 
 .cover {
@@ -80,12 +86,10 @@
   font-size: 100px;
   line-height: 1.15;
   letter-spacing: 30px;
-  
 }
 
 .accent-span {
   text-transform: uppercase;
-  
 }
 
 .text-center {
@@ -110,7 +114,6 @@
   display: flex;
   justify-content: space-between;
   font-size: 22px;
-   
 }
 
 .description__text {
@@ -174,12 +177,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  
 }
 
 .card_type_book {
@@ -232,7 +233,6 @@
 .about__logo-image {
   width: 148px;
   height: 114px;
-  
 }
 
 .about__title {
@@ -247,7 +247,6 @@
   width: 690px;
   font-size: 20px;
   line-height: 1.2;
-  
 }
 
 .about__text-starter {
@@ -282,11 +281,9 @@
   justify-content: space-between;
   width: 240px;
   list-style: none;
-  
 }
 
 .footer__social-icon {
   width: 48px;
   height: 48px;
-  
 }
